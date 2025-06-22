@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Portfolio</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🎓 Student Portfolio</h1>
+    <p>Welcome to my personal HTML-only website!</p>
+    <hr>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#profile">Profile</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#education">Education</a> |
+    <a href="#contact">Contact</a>
+    <hr>
+  </nav>
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <h2>👤 About Me</h2>
+    <p>Hello! I am <b>Sanika Kamble</b>, a student passionate about programming and web development.</p>
+    <img src="./profile_photo.jpg" alt="My Photo" height="500px" width="500px"><br><br>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>💡 Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>Java</li>
+      <li>SQL</li>
+      <li>Problem Solving</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>🛠️ Projects</h2>
+    <ol>
+      <li>Women Safety App (Console Based)</li>
+      <li>Student Result Management System</li>
+      <li>Library Management System</li>
+    </ol>
+    <p><a href="https://github.com/">🔗 View Projects on GitHub</a></p>
+  </section>
+
+  <!-- Education Table -->
+  <section id="education">
+    <h2>📚 Education</h2>
+    <table border="1">
+      <tr>
+        <th>Year</th>
+        <th>Course</th>
+        <th>Institute</th>
+        <th>Percentage</th>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>10th</td>
+        <td>Shri Shahu Highschool Junior College Kagal,kolhpur</td>
+        <td>83.60%</td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td>12th</td>
+        <td>Main Rajaram College ,kolhpur</td>
+        <td>88%</td>
+      </tr>
+      <tr>
+        <td>2025</td>
+        <td>BTech (CSE)</td>
+        <td>D.Y.Patil Technical College Talsande, kolhapur</td>
+        <td>88%</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Audio and Video Section -->
+  <section>
+    <h2>🎧 My Favorite Music</h2>
+    <audio controls>
+      <source src="./fav_music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <h2>🎬Introduction Video</h2>
+    <!-- <video width="320" height="240" controls>
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section> -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OLVUrgQ_BbA?si=qMTGRqEEYSHnQ4Aa"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>📞 Contact Me</h2>
+    <form>
+      <label>Name:</label><br>
+      <input type="text" name="name"><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email"><br><br>
+
+      <label>Message:</label><br>
+      <textarea rows="5" cols="30"></textarea><br><br>
+
+      <label>Reason for Contact:</label><br>
+      <select>
+        <option>Project Inquiry</option>
+        <option>Job Offer</option>
+        <option>Just Saying Hi</option>
+      </select><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <hr>
+    <p>&copy; 2025 Sanika Kamble. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
